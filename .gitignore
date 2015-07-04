@@ -1,0 +1,15 @@
+## JetBrain
+.idea/
+# .idea/workspace.xml
+
+## Vagrant
+.vagrant/
+Vagrantfile
+
+## Git
+.git/
+
+## Composer
+composer.phar
+vendor/
+

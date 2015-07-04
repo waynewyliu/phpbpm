@@ -1,0 +1,27 @@
+{
+    "name": "waynewyliu/phpbpm",
+    "description": "A light-weight php workflow engine for Business Process Management (BPM)",
+    "keywords": ["BPM", "workflow"],
+    "license": "MIT",
+    "type": "library",
+    "require": {
+        "php": ">=5.3",
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0",
+        "phpspec/phpspec": "~2.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "PhpBpm\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "classmap": [
+            "tests/TestCase.php"
+        ]
+    },
+    "config": {
+        "preferred-install": "dist"
+    }
+}
