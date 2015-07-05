@@ -1,6 +1,6 @@
 <?php
-
-class BpmActivity extends Eloquent {
+namespace PhpBpm\Dao\Impl\Eloquent
+class Activity extends Eloquent {
 
     //不可修改
     protected $guarded = array('id');
